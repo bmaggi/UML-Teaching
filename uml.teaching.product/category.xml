@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/uml.teaching.feature_1.0.0.qualifier.jar" id="uml.teaching.feature" version="1.0.0.qualifier"/>
+</site>

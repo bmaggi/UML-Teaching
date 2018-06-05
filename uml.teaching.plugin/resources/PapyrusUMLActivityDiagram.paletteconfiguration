@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="org.eclipse.papyrus.uml.diagram.activity.paletteconfiguration" label="Papyrus activity editor Plugin Palette" description="This is the palette of Papyrus activity editor Plugin">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="activity.nodes" label="Nodes" description="">
+    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.gmf.runtime.diagram.ui" iconPath="/icons/group.gif"/>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.activitygroup" label="ActivityGroup">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.activitygroup.activitypartition" label="Activity Partition" description="Create an Activity Partition" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ActivityPartition.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActivityPartition_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.activitygroup.interruptibleactivityregion" label="Interruptible Activity Region" description="Create an Interruptible Activity Region" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InterruptibleActivityRegion.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InterruptibleActivityRegion_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.controlnodes" label="ControlNodes">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.initialnode" label="Initial node" description="Create an Initial node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InitialNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InitialNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.activityfinal" label="Activity final" description="Create an Activity final node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ActivityFinalNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActivityFinalNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.flowfinal" label="Flow final" description="Create a Flow final node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/FlowFinalNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.FlowFinalNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.decisionnode" label="Decision node" description="Create a Decision node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DecisionNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DecisionNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.mergenode" label="Merge node" description="Create a Merge node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/MergeNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.MergeNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.joinnode" label="Join node" description="Create a Merge node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/JoinNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.JoinNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.controlnodes.forknode" label="Fork node" description="Create a Fork node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ForkNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ForkNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.constraints" label="Constraints">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpreconditionconstraint" label="Local Precondition Constraint" description="Create a Constraint as Local Precondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Constraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_LocalPreconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpreconditionintervalconstraint" label="Local Precondition Interval Constraint" description="Create an Interval Constraint as Local Precondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/IntervalConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.IntervalConstraint_LocalPreconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpreconditiondurationconstraint" label="Local Precondition Duration Constraint" description="Create a Duration Constraint as Local Precondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DurationConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DurationConstraint_LocalPreconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpreconditiontimeconstraint" label="Local Precondition Time Constraint" description="Create a Time Constraint as Local Precondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TimeConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TimeConstraint_LocalPreconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpostconditionconstraint" label="Local Postcondition Constraint" description="Create a Constraint as Local Postcondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Constraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_LocalPostconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpostconditionintervalconstraint" label="Local Postcondition Interval Constraint" description="Create an Interval Constraint as Local Postcondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/IntervalConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.IntervalConstraint_LocalPostconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpostconditiondurationconstraint" label="Local Postcondition Duration Constraint" description="Create a Duration Constraint as Local Postcondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DurationConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DurationConstraint_LocalPostconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraints.localpostconditiontimeconstraint" label="Local Postcondition Time Constraint" description="Create a Time Constraint as Local Postcondition for an Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TimeConstraint.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TimeConstraint_LocalPostconditionShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.pins" label="Pins">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.pins.outputpin" label="Output Pin" description="Create an Output Pin" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/OutputPin.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_OpaqueActionOutputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_CallBehaviorActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_CallOperationActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_AcceptEventActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ValueSpecificationActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ReadSelfActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_StartObjectBehaviorActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_TestIdentityActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ClearStructuralFeatureActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ReadLinkActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ReadExtentActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ReadIsClassifiedObjectActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_ReduceActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_AddStructuralFeatureValueActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_LoopNodeBodyOutputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_LoopNodeVariableShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_LoopNodeResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_StructuredActivityNodeOutputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_CreateLinkObjectActionResultShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OutputPin_UnmarshallActionResultShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.pins.inputpin" label="Input Pin" description="Create an Input Pin" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InputPin.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_OpaqueActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_CallBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_CallOperationActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_SendSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_StartObjectBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_StartObjectBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_TestIdentityActionFirstShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_TestIdentityActionSecondShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ClearStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_CreateLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ReadLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_DestroyLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ReclassifyObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ReadIsClassifiedObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ReduceActionCollectionShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_StartClassifierBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_DestroyObjectActionTargetShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_AddVariableValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_AddVariableValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_BroadcastSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_AddStructuralFeatureValueActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_AddStructuralFeatureValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_AddStructuralFeatureValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_LoopNodeVariableInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_ReadStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_StructuredActivityNodeInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_CreateLinkObjectActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InputPin_UnmarshallActionObjectShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.pins.actioninputpin" label="Action Input Pin" description="Create an Action Input Pin" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ActionInputPin.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_OpaqueActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_CallBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_CallOperationActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_SendSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_StartObjectBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_StartObjectBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_TestIdentityActionFirstShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_TestIdentityActionSecondShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ClearStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_CreateLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ReadLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_DestroyLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ClearAssociationActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ReclassifyObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ReadIsClassifiedObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ReduceActionCollectionShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_StartClassifierBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_DestroyObjectActionTargetShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_AddVariableValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_AddVariableValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_BroadcastSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_AddStructuralFeatureValueActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_AddStructuralFeatureValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_AddStructuralFeatureValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_LoopNodeVariableInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_StructuredActivityNodeInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_CreateLinkObjectActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_ReadStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionInputPin_UnmarshallActionObjectShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.pins.valuepin" label="Value Pin" description="Create a Value Pin" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ValuePin.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_OpaqueActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_CallBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_CallOperationActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_SendSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_StartObjectBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_StartObjectBehaviorActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_TestIdentityActionFirstShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_TestIdentityActionSecondShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ClearStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_CreateLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ReadLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_DestroyLinkActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ClearAssociationActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ReclassifyObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ReadIsClassifiedObjectActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ReduceActionCollectionShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_StartClassifierBehaviorActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_DestroyObjectActionTargetShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_AddVariableValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_AddVariableValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_BroadcastSignalActionArgumentShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_AddStructuralFeatureValueActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_AddStructuralFeatureValueActionValueShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_AddStructuralFeatureValueActionInsertAtShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_LoopNodeVariableInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_StructuredActivityNodeInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_CreateLinkObjectActionInputShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_ReadStructuralFeatureActionObjectShape"/>
+        </elementDescriptors>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValuePin_UnmarshallActionObjectShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.expansionregions" label="ExpansionRegions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.expansionregions.expansionregion" label="Expansion Region" description="Create an Expansion Region" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ExpansionRegion.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ExpansionRegion_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.expansionregions.inputexpansionnode" label="Input Expansion Node" description="Create an Expansion Node as Input of an Expansion Region" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ExpansionNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ExpansionNode_InputShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.expansionregions.outputexpansionnode" label="Output Expansion Node" description="Create an Expansion Node as Output of an Expansion Region" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ExpansionNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ExpansionNode_OutputShape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.invocationactions" label="InvocationActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.broadcastsignalaction" label="Broadcast Signal Action" description="Create a Broadcast Signal Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/BroadcastSignalAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.BroadcastSignalAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.callbehavioraction" label="Call Behavior Action" description="Create an Call Behavior Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/CallBehaviorAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CallBehaviorAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.calloperationaction" label="Call Operation Action" description="Create a Call Operation Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/CallOperationAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CallOperationAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.sendobjectaction" label="Send Object Action" description="Create a Send Object Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/SendObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.SendObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.sendsignalaction" label="Send Signal Action" description="Create a Send Signal Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/SendSignalAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.SendSignalAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.invocationactions.startobjectbehaviouraction" label="Start Object Behaviour Action " description="Create a Start Object Behaviour Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/StartObjectBehaviorAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.StartObjectBehaviorAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.objectactions" label="ObjectActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.objectactions.createobjectaction" label="Create Object Action" description="Create a Create Object Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/CreateObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CreateObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.objectactions.destroyobjectaction" label="Destroy Object Action" description="Create a Destroy Object Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DestroyObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DestroyObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.objectactions.readselfaction" label="ReadSelfAction" description="Create a ReadSelfAction" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadSelfAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadSelfAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.objectactions.reclassifyobjectaction" label="Reclassify Object Action" description="Create a ReclassifyObjectAction" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReclassifyObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReclassifyObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.objectactions.readisclassifiedobjectaction" label="Read Is Classified Object Action" description="Create a Read Is Classified Object Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadIsClassifiedObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadIsClassifiedObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.structuredactions" label="StructuredActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuredactions.structuredactivitynode" label="Structured Activity Node" description="Create a Structured Activity Node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/StructuredActivityNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.StructuredActivityNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuredactions.loopnode" label="Loop Node" description="Create a Loop Node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/LoopNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.LoopNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuredactions.sequencenode" label="Sequence Node" description="Create a Sequence Node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/SequenceNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.SequenceNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuredactions.conditionalnode" label="Conditional Node" description="Create a Conditional Node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ConditionalNode.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ConditionalNode_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.structuralfeatureactions" label="StructuralFeatureActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuralfeatureactions.readstructuralfeatureaction" label="Read Structural Feature Action" description="Create Read Structural Feature Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadStructuralFeatureAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadStructuralFeatureAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuralfeatureactions.addstructuralfeaturevalueaction" label="Add Structural Feature Value Action" description="Create Add Structural Feature Value Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/AddStructuralFeatureValueAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AddStructuralFeatureValueAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.structuralfeatureactions.clearstructuralfeature" label="Clear Structural Feature" description="Create a Clear Structural Feature Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ClearStructuralFeatureAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ClearStructuralFeatureAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.variableactions" label="VariableActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.variableactions.addvariablevalueaction" label="Add Variable Value Action" description="Create Add Variable Value Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/AddVariableValueAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AddVariableValueAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.variableactions.readvariableaction" label="Read Variable Action" description="Create a Read Variable Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadVariableAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadVariableAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.miscellaneousactions" label="MiscellaneousActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.opaqueaction" label="Opaque Action" description="Create an Opaque Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/OpaqueAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OpaqueAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.valuespecificationaction" label="Value Specification Action" description="Create a Value Specification Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ValueSpecificationAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ValueSpecificationAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.clearassociationaction" label="Clear Association Action" description="Create a Clear Association Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ClearAssociationAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ClearAssociationAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.readextentaction" label="Read Extent Action" description="Create a Read Extent Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadExtentAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadExtentAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.reduceaction" label="Reduce Action" description="Create a Reduce Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReduceAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReduceAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.miscellaneousactions.startclassifierbehavior" label="Start Classifier Behavior" description="Create a Start Classifier Behavior" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/StartClassifierBehaviorAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.StartClassifierBehaviorAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="activity.nodes.linkactions" label="LinkActions">
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.linkactions.createlinkaction" label="Create Link Action" description="Create a Create Link Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/CreateLinkAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CreateLinkAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.linkactions.readlinkaction" label="Read Link Action" description="Create a Read Link Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ReadLinkAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ReadLinkAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.linkactions.destroylinkaction" label="Destroy Link Action" description="Create a Destroy Link Action node" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DestroyLinkAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DestroyLinkAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.linkactions.createlinkobjectaction" label="Create Link Object Action" description="Create a Create Link Object Action" kind="CreationTool">
+        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/CreateLinkObjectAction.gif"/>
+        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CreateLinkObjectAction_Shape"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.accepteventaction" label="Accept Event Action" description="Create an Accept Event Action node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/AcceptEventAction.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AcceptEventAction_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.unmarshallaction" label="Unmarshall Action" description="Create an Unmarshall Action node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/UnmarshallAction.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.UnmarshallAction_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.testidentityaction" label="Test Identity Action " description="Create a Test Identity Action node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TestIdentityAction.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TestIdentityAction_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.activity" label="Activity" description="Create an Activity" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Activity.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Activity_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Activity_Shape_CN"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.activityparameternode" label="Activity Parameter Node" description="Create an Activity Parameter Node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ActivityParameterNode.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActivityParameterNode_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.centralbuffernode" label="Central Buffer Node" description="Create a Central Buffer Node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DataStoreNode.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CentralBufferNode_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.datastorenode" label="Data Store Node" description="Create a Data Store Node" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DataStoreNode.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DataStoreNode_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.constraint" label="Constraint" description="Create a Constraint" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Constraint.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.comment" label="Comment" description="Create a Comment" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Comment.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="activity.edges" label="Edges" description="">
+    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.gmf.runtime.diagram.ui" iconPath="/icons/group.gif"/>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.controlflow" label="Control Flow" description="Create a Control Flow" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ControlFlow.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ControlFlow_Edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.exceptionhandler" label="Exception Handler" description="Create an Exception Handler" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ExceptionHandler.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ExceptionHandler_Edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.objectflow" label="Object Flow" description="Create an Object Flow" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ObjectFlow.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ObjectFlow_Edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.link" label="Link" description="Create of a link for comment" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.uml.diagram.activity" iconPath="icons/obj16/Link.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

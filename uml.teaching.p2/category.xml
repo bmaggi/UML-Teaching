@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="uml.teaching.feature_1.0.0.qualifier.jar" id="uml.teaching.feature" version="1.0.0.qualifier">
+      <category name="uml.teaching.category"/>
+   </feature>
+   <feature url="uml.teaching.feature.source_1.0.0.qualifier.jar" id="uml.teaching.feature.source" version="1.0.0.qualifier">
+      <category name="uml.teaching.category"/>
+   </feature>
+   <category-def name="org.eclipse.uml.teaching.category" label="uml.teaching Category">
+      <description>
+         uml.teaching Category
+      </description>
+   </category-def>
+</site>

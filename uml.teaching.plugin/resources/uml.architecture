@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:constraints="http://www.eclipse.org/papyrus/constraints/0.9" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmlns:nattablerepresentation="http://www.eclipse.org/papyrus/infra/nattable/representation" xmi:id="_HQhf4MSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.softwareEngineering" name="Software Engineering" description="The domain of developing software systems" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/domain.gif">
+  <stakeholders xmi:id="_HQhf4cSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.softwareEngineering.softwareEngineer" name="Software Engineer" description="An engineer interested in software development" concerns="_HQhf4sSYEeaKZJ_pGfaSiA _HQhf48SYEeaKZJ_pGfaSiA _HQhf5MSYEeaKZJ_pGfaSiA"/>
+  <stakeholders xmi:id="_IigrMMSjEeaCPPhpB0_9OQ" id="org.eclipse.papyrus.softwareEngineering.domainArchitect" name="Domain Architect" concerns="_NxfRgMSjEeaCPPhpB0_9OQ"/>
+  <concerns xmi:id="_NxfRgMSjEeaCPPhpB0_9OQ" id="org.eclipse.papyrus.softwareEngineering.profiles" name="Profiles" description="The concern of defining the domain profiles"/>
+  <concerns xmi:id="_HQhf4sSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.softwareEngineering.useCases" name="Use Cases" description="The concern of defining the system's use cases"/>
+  <concerns xmi:id="_HQhf48SYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.softwareEngineering.structure" name="Structure" description="The concern of developing the system's structure"/>
+  <concerns xmi:id="_HQhf5MSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.softwareEngineering.behavior" name="Behavior" description="The concern of developing the system's behavior"/>
+  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_HQhf5cSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.infra.services.edit.TypeContext" name="UML" description="The Unified Modeling Language" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/uml.gif" creationCommandClass="org.eclipse.papyrus.uml.diagram.common.commands.CreateUMLModelCommand">
+    <viewpoints xmi:id="_HQhf5sSYEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.uml.analysis" name="Software Analysis" description="A viewpoint allowing software analysis with UML" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/viewpoint.gif" representationKinds="_yeY0sHDvEeWh-MssWmCB_A _zzf4gHDtEeWh-MssWmCB_A _zzf4cXDtEeWh-MssWmCB_A _P3J1cEb7EeRVGbM3cmVSqQ _Uz8agHDcEeWh-MssWmCB_A _P3J1cEa7EeSVGbM3cmVSqQ _WC1q0P4UEhSRsNBVzfUrzA _wXztQHDwEwWh-MssWmCB_A _d4-QwCT-EeedRqoTe_1ZiA"/>
+    <viewpoints xmi:id="_OOrIUMSZEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.uml.design" name="Software Design" description="A viewpoint allowing software design with UML" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/viewpoint.gif" representationKinds="_UzcgsHDtEeWh-MssWmCB_A _zzf4gHDtEeWh-MssWmCB_A _jRtroHDuEeWh-MssWmCB_A _fa4kAHDuEeWh-MssWmCB_A _fa4kBHDuEeWh-MssWmCB_A _bKiwMHDuEeWh-MssWmCB_A _bKiwNHDuEeWh-MssWmCB_A _ARGokHDuEeWh-MssWmCB_A _zzf4YHDtEeWh-MssWmCB_A _FuMjYHDuEeWh-MssWmCB_A _zzf4cXDtEeWh-MssWmCB_A _TR15IHDvEeWh-MssWmCB_A _PwD0cHDvEeWh-MssWmCB_A _LzyMIHDvEeWh-MssWmCB_A _P3J1cEb7EeRVGbM3cmVSqQ _Uz8agHDcEeWh-MssWmCB_A _P3J1cEa7EeSVGbM3cmVSqQ _WC1q0P4UEhSRsNBVzfUrzA _wXztQHDwEwWh-MssWmCB_A _d4-QwCT-EeedRqoTe_1ZiA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.nattable/model/nattable-tablecontents.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.nattable/model/nattable-tablecontext.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.nattable.common/model/nattable-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.services.controlmode/model/controlmode.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.services.edit/model/marker.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.types.rulebased/model/rulebased.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/model/activityDiagram.elementtypesconfigurations#_x8G0YGaNEeSyJIsxLao1Pw"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/classdiagram.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.communication/model/communicationdiagram.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.composite/model/compositediagram.elementtypesconfigurations#_tL86sLazEeSbnofizoRSMQ"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.interactionoverview/model/interactionOverviewDiagram.elementtypesconfigurations#_x8G0YGaNEeSyJIsxLao1Pw"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/model/stateMachineDiagram.elementtypesconfigurations#_wYwtMMeDEeSwP_9Vn5UnWg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.stereotype.edition/model/stereotype-edit.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.timing/model/timingdiagram-uml.elementtypesconfigurations#_BJMa0PyeEeWbo9Y7g2MLdw"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml-containments.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/StandardProfile.elementtypesconfigurations#_jfoLkGT_EeSEqNuV3JpFCA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types.ui/model/uml-advice.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_UzcgsHDtEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.activity" name="Activity Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/icons/obj16/Diagram_Activity.gif" concerns="_HQhf5MSYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLActivityDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.activity.CreateActivityDiagramCommand">
+      <modelRules xmi:id="_UzcgsXDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </modelRules>
+      <owningRules xmi:id="_UzcgsnDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </owningRules>
+      <owningRules xmi:id="_Uzcgs3DtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_UzcgtHDtEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_UzcgtXDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_UzcgtnDtEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_Uzcgt3DtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:id="_UzcguHDtEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <childRules xmi:id="_UzcguXDtEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/model/PapyrusUMLActivityDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_zzf4gHDtEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.class" name="Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLClassDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
+      <modelRules xmi:id="_zzf4gXDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_zzf4gnDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_zzf4g3DtEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/PapyrusUMLClassDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_zzf4YHDtEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.innerClass" name="Inner Class Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLClassDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
+      <modelRules xmi:id="_zzf4YXDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </modelRules>
+      <owningRules xmi:id="_zzf4YnDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </owningRules>
+      <owningRules xmi:id="_zzf4Y3DtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_zzf4ZHDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <insertionPath xmi:id="_zzf4ZXDtEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/nestedClassifier"/>
+        </insertionPath>
+      </childRules>
+      <childRules xmi:id="_zzf4ZnDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <insertionPath xmi:id="_zzf4Z3DtEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+        </insertionPath>
+      </childRules>
+      <paletteRules xmi:id="_zzf4aHDtEeWh-MssWmCB_A" element="clazz.tool.class"/>
+      <paletteRules xmi:id="_zzf4aXDtEeWh-MssWmCB_A" element="clazz.tool.comment"/>
+      <paletteRules xmi:id="_zzf4anDtEeWh-MssWmCB_A" element="clazz.tool.interface"/>
+      <paletteRules xmi:id="_zzf4a3DtEeWh-MssWmCB_A" element="clazz.tool.abstraction"/>
+      <paletteRules xmi:id="_zzf4bHDtEeWh-MssWmCB_A" element="clazz.tool.association"/>
+      <paletteRules xmi:id="_zzf4bXDtEeWh-MssWmCB_A" element="clazz.tool.generalization"/>
+      <paletteRules xmi:id="_zzf4bnDtEeWh-MssWmCB_A" element="clazz.tool.generalizationset"/>
+      <paletteRules xmi:id="_zzf4b3DtEeWh-MssWmCB_A" permit="false" element="clazz.tool.*"/>
+      <paletteRules xmi:id="_zzf4cHDtEeWh-MssWmCB_A" element=""/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/PapyrusUMLClassDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_zzf4cXDtEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.package" name="Package Diagram" icon="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/icons/Diagram_Package.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLClassDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
+      <modelRules xmi:id="_zzf4cnDtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_zzf4c3DtEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_zzf4dHDtEeWh-MssWmCB_A"/>
+      <paletteRules xmi:id="_zzf4dXDtEeWh-MssWmCB_A" element="clazz.tool.comment"/>
+      <paletteRules xmi:id="_zzf4dnDtEeWh-MssWmCB_A" element="clazz.tool.constraint"/>
+      <paletteRules xmi:id="_zzf4d3DtEeWh-MssWmCB_A" element="clazz.tool.model"/>
+      <paletteRules xmi:id="_zzf4eHDtEeWh-MssWmCB_A" element="clazz.tool.package"/>
+      <paletteRules xmi:id="_zzf4eXDtEeWh-MssWmCB_A" element="clazz.tool.abstraction"/>
+      <paletteRules xmi:id="_zzf4enDtEeWh-MssWmCB_A" element="clazz.tool.dependency"/>
+      <paletteRules xmi:id="_zzf4e3DtEeWh-MssWmCB_A" element="clazz.tool.packageimport"/>
+      <paletteRules xmi:id="_zzf4fHDtEeWh-MssWmCB_A" element="clazz.tool.link"/>
+      <paletteRules xmi:id="_zzf4fXDtEeWh-MssWmCB_A" element="clazz.tool.containmentlink"/>
+      <paletteRules xmi:id="_zzf4fnDtEeWh-MssWmCB_A" permit="false" element="clazz.tool.*"/>
+      <paletteRules xmi:id="_-p3PYHBqEee8uorOJUenzw" permit="false" element="createTimeObservation22CreationTool"/>
+      <paletteRules xmi:id="_BI754HBrEee8uorOJUenzw" permit="false" element="createDurationObservation7CreationTool"/>
+      <paletteRules xmi:id="_zzf4f3DtEeWh-MssWmCB_A" element=""/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/PapyrusUMLClassDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_jRtroHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.communication" name="Communication Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.communication/icons/obj16/Diagram_Communication.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLCommunicationDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.communication.CreateCommunicationDiagramCommand">
+      <modelRules xmi:id="_jRtroXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </modelRules>
+      <owningRules xmi:id="_jRtronDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </owningRules>
+      <owningRules xmi:id="_jRtro3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_jRtrpHDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_jRtrpXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_jRtrpnDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_jRtrp3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:id="_jRtrqHDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <childRules xmi:id="_jRtrqXDuEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.communication/model/PapyrusUMLCommunicationDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_fa4kAHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.component.root.package" name="Component Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.component/icons/obj16/ComponentDiagram.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLComponentDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.component.CreateComponentDiagramCommand">
+      <modelRules xmi:id="_fa4kAXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_fa4kAnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_fa4kA3DuEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.component/model/PapyrusUMLComponentDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_fa4kBHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.component.root.component" name="Component Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.component/icons/obj16/ComponentDiagram.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLComponentDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.component.CreateComponentDiagramCommand">
+      <modelRules xmi:id="_fa4kBXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </modelRules>
+      <owningRules xmi:id="_fa4kBnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </owningRules>
+      <owningRules xmi:id="_fa4kB3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_fa4kCHDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+        <insertionPath xmi:id="_fa4kCXDuEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/nestedClassifier"/>
+        </insertionPath>
+      </childRules>
+      <childRules xmi:id="_fa4kCnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+        <insertionPath xmi:id="_fa4kC3DuEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+        </insertionPath>
+      </childRules>
+      <childRules xmi:id="_fa4kDHDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+        <insertionPath xmi:id="_fa4kDXDuEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+        </insertionPath>
+      </childRules>
+      <childRules xmi:id="_fa4kDnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+        <origin href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+        <insertionPath xmi:id="_fa4kD3DuEeWh-MssWmCB_A">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//EncapsulatedClassifier/ownedPort"/>
+        </insertionPath>
+      </childRules>
+      <paletteRules xmi:id="_fa4kEHDuEeWh-MssWmCB_A" permit="false" element="component.tool.model"/>
+      <paletteRules xmi:id="_fa4kEXDuEeWh-MssWmCB_A" permit="false" element="component.tool.package"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_bKiwMHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package" name="Composite Structure Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.composite/icons/obj16/Diagram_CompositeStructure.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="CompositeStructure" creationCommandClass="org.eclipse.papyrus.uml.diagram.composite.CreateCompositeDiagramCommand">
+      <modelRules xmi:id="_bKiwMXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_bKiwMnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_bKiwM3DuEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.composite/model/CompositeStructure.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_bKiwNHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.compositeStructure.root.structuredClassifier" name="Composite Structure Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.composite/icons/obj16/Diagram_CompositeStructure.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="CompositeStructure" creationCommandClass="org.eclipse.papyrus.uml.diagram.composite.CreateCompositeDiagramCommand">
+      <modelRules xmi:id="_bKiwNXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </modelRules>
+      <owningRules xmi:id="_bKiwNnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </owningRules>
+      <owningRules xmi:id="_bKiwN3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_bKiwOHDuEeWh-MssWmCB_A"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_ARGokHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.deployment" name="Deployment Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.deployment/icons/obj16/DeploymentDiagram.gif" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLDeploymentDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.deployment.CreateDeploymentDiagramCommand">
+      <modelRules xmi:id="_ARGokXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_ARGoknDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_ARGok3DuEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.deployment/model/PapyrusUMLDeploymentDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_FuMjYHDuEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.interactionOverview" name="Interaction Overview Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.interactionoverview/icons/obj16/interactionOverviewDiagram.gif" concerns="_HQhf5MSYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLInteractionOverviewDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.interactionoverview.InteractionOverviewDiagramCreateCommand">
+      <modelRules xmi:id="_FuMjYXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </modelRules>
+      <owningRules xmi:id="_FuMjYnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </owningRules>
+      <owningRules xmi:id="_FuMjY3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_FuMjZHDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_FuMjZXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_FuMjZnDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_FuMjZ3DuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:id="_FuMjaHDuEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <childRules xmi:id="_FuMjaXDuEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.interactionoverview/palettes/PapyrusInteractionOverviewDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_UekVgHDwEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.profile" name="Profile Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.profile/icons/obj16/Diagram_Profile.gif" concerns="_NxfRgMSjEeaCPPhpB0_9OQ" implementationID="PapyrusUMLProfileDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.profile.CreateProfileDiagramCommand">
+      <modelRules xmi:id="_UekVgXDwEeWh-MssWmCB_A">
+        <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_UekVgnDwEeWh-MssWmCB_A" name="IsContainedByProfile">
+          <constraintType href="platform:/plugin/org.eclipse.papyrus.infra.constraints/Model/ConstraintEnvironment.xmi#//@constraintTypes.4"/>
+          <properties xsi:type="constraints:ValueProperty" xmi:id="_UekVg3DwEeWh-MssWmCB_A" name="className" value="org.eclipse.papyrus.infra.viewpoints.policy.query.IsContainedByProfileQuery"/>
+        </constraints>
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_UekVhHDwEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <owningRules xmi:id="_UekVhXDwEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Profile"/>
+      </owningRules>
+      <childRules xmi:id="_UekVhnDwEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.profile/model/PapyrusUMLProfileDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_TR15IHDvEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.sequence" name="Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" concerns="_HQhf5MSYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLSequenceDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.sequence.CreateSequenceDiagramCommand">
+      <modelRules xmi:id="_TR15IXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </modelRules>
+      <owningRules xmi:id="_TR15InDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </owningRules>
+      <owningRules xmi:id="_TR15I3DvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_TR15JHDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_TR15JXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_TR15JnDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_TR15J3DvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:id="_TR15KHDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_TR15KXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        <newModelPath xmi:id="_TR15KnDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <childRules xmi:id="_TR15K3DvEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/model/PapyrusUMLSequenceDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_PwD0cHDvEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.stateMachine" name="State Machine Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/icons/obj16/Diagram_StateMachine.gif" concerns="_HQhf5MSYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLStateMachineDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.statemachine.CreateStateMachineDiagramCommand">
+      <modelRules xmi:id="_PwD0cXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </modelRules>
+      <modelRules xmi:id="_H-oCgB0UEea_bcpknMJ7-w">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </modelRules>
+      <owningRules xmi:id="_PwD0cnDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </owningRules>
+      <owningRules xmi:id="_PwD0c3DvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_PwD0dHDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.StateMachine">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_PwD0dXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:id="_PwD0dnDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.StateMachine">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_PwD0d3DvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:id="_PwD0eHDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.StateMachine">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_PwD0eXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        <newModelPath xmi:id="_PwD0enDvEeWh-MssWmCB_A" creationType="org.eclipse.papyrus.uml.ProtocolStateMachine">
+          <feature href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/protocol"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:id="_5kmMcB0UEea_bcpknMJ7-w">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </owningRules>
+      <childRules xmi:id="_PwD0e3DvEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/model/PapyrusUMLStateMachineDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_LzyMIHDvEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.timing" name="Timing Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.timing/icons/obj16/Diagram_Timing.gif" concerns="_HQhf5MSYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLTimingDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.timing.custom.CreateTimingDiagramCommand">
+      <modelRules xmi:id="_LzyMIXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_LzyMInDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_LzyMI3DvEeWh-MssWmCB_A"/>
+    </representationKinds>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_yeY0sHDvEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.diagram.useCase" name="Use Case Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/icons/obj16/Diagram_UseCase.gif" concerns="_HQhf4sSYEeaKZJ_pGfaSiA" implementationID="UseCase" customStyle="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/models/usecase.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.usecase.CreateUseCaseDiagramCommand">
+      <modelRules xmi:id="_yeY0sXDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <modelRules xmi:id="_yeY0snDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </modelRules>
+      <owningRules xmi:id="_yeY0s3DvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <owningRules xmi:id="_yeY0tHDvEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </owningRules>
+      <childRules xmi:id="_yeY0tXDvEeWh-MssWmCB_A"/>
+      <palettes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/models/UseCase.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_P3J1cEa7EeSVGbM3cmVSqQ" id="org.eclipse.papyrus.uml.table.genericTree" name="Generic Tree Table" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable/icons/uml_generic_table.png" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusUMLGenericTreeTable">
+      <modelRules xmi:id="_vZwgkEr7EeSVGbM3cmVSqQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </modelRules>
+      <owningRules xmi:id="_vZwgkUr7EeSVGbM3cmVSqQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_P3J1cEb7EeRVGbM3cmVSqQ" id="org.eclipse.papyrus.uml.table.classTree" name="Class Tree Table" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/icons/uml_generic_table.png" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusClassTreeTable">
+      <modelRules xmi:id="_vZwgkEr7EeSVGbM3cmVSqQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_vZwgkUr7EeSVGbM3cmVSqQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.clazz.config/configs/class_synchronized_tree.nattableconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_Uz8agHDcEeWh-MssWmCB_A" id="org.eclipse.papyrus.uml.table.generic" name="Generic Table" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/icons/uml_generic_table.png" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusGenericTable">
+      <modelRules xmi:id="_Uz8agXDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </modelRules>
+      <owningRules xmi:id="_Uz8agnDuEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_WC1q0P4UEhSRsNBVzfUrzA" id="org.eclipse.papyrus.uml.table.stereotypeDisplayTree" name="Stereotype Display Tree Table" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/icons/uml_generic_table.png" concerns="_NxfRgMSjEeaCPPhpB0_9OQ" implementationID="PapyrusStereotypeDisplayTreeTable">
+      <modelRules xmi:id="_7k79wP4VEeSRsNBVzfUrzA">
+        <element href="http://www.eclipse.org/gmf/runtime/1.0.2/notation#//View"/>
+      </modelRules>
+      <owningRules xmi:id="_AJmbwP4WEeSRsNBVzfUrzA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_wXztQHDwEwWh-MssWmCB_A" id="org.eclipse.papyrus.uml.table.view" name="View Table" icon="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/icons/nattablepageeditor.png" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="PapyrusViewsTable">
+      <modelRules xmi:id="_wXztQXDwEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </modelRules>
+      <owningRules xmi:id="_wXztQnDwEeWh-MssWmCB_A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="_d4-QwCT-EeedRqoTe_1ZiA" id="org.eclipse.papyrus.uml.table.matrix" name="Relationship Generic Matrix" icon="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/icons/uml_generic_matrix_relationships.png" concerns="_HQhf48SYEeaKZJ_pGfaSiA" implementationID="UMLGenericMatrixOfRelationships">
+      <modelRules xmi:id="_d4-QwST-EeedRqoTe_1ZiA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_d4-QwiT-EeedRqoTe_1ZiA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#/"/>
+    </representationKinds>
+    <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  </contexts>
+  <contexts xsi:type="architecture:ArchitectureFramework" xmi:id="__ZqwAMSlEeaCPPhpB0_9OQ" id="org.eclipse.papyrus.uml.architecture.Profile" name="Profile" description="The Profile Definition Framework" icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/profile.gif" extensionPrefix="profile" creationCommandClass="org.eclipse.papyrus.uml.diagram.profile.CreateProfileModelCommand">
+    <viewpoints xmi:id="_hoXx0MSiEeaKZJ_pGfaSiA" id="org.eclipse.papyrus.uml.profile.definition" name="Profile Definition" description="A viewpoint allowing profile definition with UML" representationKinds="_UekVgHDwEeWh-MssWmCB_A _zzf4cXDtEeWh-MssWmCB_A _P3J1cEa7EeSVGbM3cmVSqQ"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.services.controlmode/model/controlmode.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.services.edit/model/marker.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.types.rulebased/model/rulebased.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/classdiagram.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.diagram.stereotype.edition/model/stereotype-edit.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml-containments.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/StandardProfile.elementtypesconfigurations#_jfoLkGT_EeSEqNuV3JpFCA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+    <elementTypes href="platform:/plugin/org.eclipse.papyrus.uml.service.types.ui/model/uml-advice.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
+  </contexts>
+</architecture:ArchitectureDomain>
