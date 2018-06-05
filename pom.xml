@@ -307,7 +307,7 @@
           <target>
             <artifact>
               <groupId>uml.teaching</groupId>
-              <artifactId>uml.teaching.targetplatform.oxygen</artifactId>
+              <artifactId>uml.teaching.targetplatform</artifactId>
               <version>1.0.0-SNAPSHOT</version>
             </artifact>
           </target>

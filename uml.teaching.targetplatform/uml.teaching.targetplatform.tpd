@@ -1,4 +1,4 @@
-target "Eclipse Oxygen" with source requirements
+target "Eclipse Photon" with source requirements
 
 location "http://download.eclipse.org/releases/photon/" eclipse-photon {
  org.eclipse.platform.feature.group lazy
