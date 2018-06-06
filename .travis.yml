@@ -8,8 +8,8 @@ jdk:
 rvm:
   - 2.2
 
- env:
-  global:
+env:
+ global:
     - XDG_RUNTIME_DIR="/tmp"
 
 # GUI is required for eclipse testing
