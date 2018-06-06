@@ -184,56 +184,7 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-p2-repository-plugin</artifactId>
       </plugin>
-      <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>tycho-source-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>plugin-source</id>
-            <goals>
-              <goal>plugin-source</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.eclipse.tycho.extras</groupId>
-        <artifactId>tycho-source-feature-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>source-feature</id>
-            <phase>package</phase>
-            <goals>
-              <goal>source-feature</goal>
-            </goals>
-            <configuration>
-              <excludes>
-                <plugin id="com.google.guava"/>
-                <plugin id="com.google.inject"/>
-                <plugin id="org.apache.batik.pdf"/>
-                <plugin id="org.apache.log4j"/>
-                <plugin id="org.apache.batik.bridge"/>
-                <plugin id="org.apache.batik.css"/>
-                <plugin id="org.apache.batik.dom"/>
-                <plugin id="org.apache.batik.dom.svg"/>
-                <plugin id="org.apache.batik.ext.awt"/>
-                <plugin id="org.apache.batik.parser"/>
-                <plugin id="org.apache.batik.svggen"/>
-                <plugin id="org.apache.batik.transcoder"/>
-                <plugin id="org.apache.batik.util"/>
-                <plugin id="org.apache.batik.util.gui"/>
-                <plugin id="org.apache.batik.xml"/>
-                <plugin id="org.apache.commons.lang"/>
-                <plugin id="org.eclipse.m2m.qvt.oml.project"/>
-                <plugin id="org.eclipse.m2m.qvt.oml.runtime"/>
-                <plugin id="org.eclipse.xtend.shared.ui"/>
-                <plugin id="org.eclipse.xwt.ui.workbench"/>
-                <plugin id="org.eclipse.wst.common.project.facet.core"/>
-              </excludes>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-p2-plugin</artifactId>
