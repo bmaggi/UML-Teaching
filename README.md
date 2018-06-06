@@ -1,16 +1,13 @@
-# UML-Teaching
-A Papyrus UML Architecture ready to be pruned
-
-### Status ###
-
-[![License](https://img.shields.io/badge/license-EPL2-blue.svg)](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
-[![Build Status](https://travis-ci.org/bmaggi/UML-Teaching.svg?branch=master)](https://travis-ci.org/bmaggi/UML-Teaching)
-
-# Steps to create your own bundle
- - get the sources (either clone directly or fork in GitHub)
- - open the uml.teaching.plugin project with Papyrus (Toolsmith should be installed)
-    - prune the architecture (remove unwanted diagram and table)
-    - remove unwanted elements in palette still used in architecture
-    - remove element in the 2 childs menus
- - use maven to build the product ``` mvn clean install``` 
+# Steps done to create this bundle (Very simple class diagram)
+ - create a branch
+ - open the uml.teaching.plugin project 
+ - open teaching.architecture
+   - keep only class diagram
+ - open PapyrusUMLClassDiagram.paletteconfiguration
+   - keep only Class, Operation, Property, Association
+ - open UMLEdges.creationmenumodel
+   - keep only Class, Operation, Property
+ - open UML.creationmenumodel
+   - keep Association
+ - use Maven to build the product ``` mvn clean install``` 
  - product is available in uml.teaching.product\target\products
