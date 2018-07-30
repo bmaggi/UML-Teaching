@@ -1,5 +1,6 @@
 # UML-Teaching
-A Papyrus UML Architecture ready to be pruned
+A Papyrus UML Architecture ready to be pruned 
+(the same idea can be applied for all Papyrus dsml) 
 
 ### Status ###
 
@@ -9,13 +10,15 @@ A Papyrus UML Architecture ready to be pruned
 ## Steps to create your own bundle
  - get the sources (either clone directly or fork in GitHub)
  - open the uml.teaching.plugin project with Papyrus (Toolsmith should be installed)
-    - prune the architecture (remove unwanted diagram and table)
-    - remove unwanted elements in palette still used in architecture
-    - remove element in the 2 childs menus
+    - prune the architecture 
+       - remove unwanted diagrams
+       - remove unwanted tables
+    - remove unwanted elements in palettes still used in architecture
+    - remove unwanted elements in the 2 childs menus
  - use maven to build the product ``` mvn clean install``` 
- - product is available in uml.teaching.product\target\products
+ - products are available in uml.teaching.product\target\products
 
-## Example Simple Product with only class diagram 
+## Example: "Only class diagram Product" 
  - [Branch example](https://github.com/bmaggi/UML-Teaching/tree/example) 
  - [Download product](https://www.dropbox.com/sh/6u19pou8nf3rgy3/AAAC1rKIV_hjKO9Tr8VPYNppa?dl=0)
 
